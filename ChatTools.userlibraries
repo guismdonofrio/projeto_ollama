@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: org.jsoup:jsoup:1.21.2">
+    <archive path="C:/Users/BancoDados/.m2/repository/org/jsoup/jsoup/1.21.2/jsoup-1.21.2.jar" />
+  </library>
+  <library name="Maven: io.github.ollama4j:ollama4j:1.1.6">
+    <archive path="C:/Users/BancoDados/.m2/repository/io/github/ollama4j/ollama4j/1.1.6/ollama4j-1.1.6.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.20">
+    <archive path="C:/Users/BancoDados/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.20/jackson-annotations-2.20.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.20.1">
+    <archive path="C:/Users/BancoDados/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.20.1/jackson-databind-2.20.1.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.20.1">
+    <archive path="C:/Users/BancoDados/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.20.1/jackson-dataformat-yaml-2.20.1.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.20.1">
+    <archive path="C:/Users/BancoDados/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.20.1/jackson-core-2.20.1.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.1">
+    <archive path="C:/Users/BancoDados/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.20.1/jackson-datatype-jsr310-2.20.1.jar" />
+  </library>
+  <library name="Maven: org.yaml:snakeyaml:2.4">
+    <archive path="C:/Users/BancoDados/.m2/repository/org/yaml/snakeyaml/2.4/snakeyaml-2.4.jar" />
+  </library>
+  <library name="Maven: io.prometheus:simpleclient:0.16.0">
+    <archive path="C:/Users/BancoDados/.m2/repository/io/prometheus/simpleclient/0.16.0/simpleclient-0.16.0.jar" />
+  </library>
+  <library name="Maven: org.slf4j:slf4j-api:2.0.17">
+    <archive path="C:/Users/BancoDados/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar" />
+  </library>
+  <library name="Maven: io.prometheus:simpleclient_tracer_common:0.16.0">
+    <archive path="C:/Users/BancoDados/.m2/repository/io/prometheus/simpleclient_tracer_common/0.16.0/simpleclient_tracer_common-0.16.0.jar" />
+  </library>
+  <library name="Maven: io.prometheus:simpleclient_tracer_otel:0.16.0">
+    <archive path="C:/Users/BancoDados/.m2/repository/io/prometheus/simpleclient_tracer_otel/0.16.0/simpleclient_tracer_otel-0.16.0.jar" />
+  </library>
+  <library name="Maven: com.google.guava:guava:33.5.0-jre">
+    <archive path="C:/Users/BancoDados/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar" />
+  </library>
+  <library name="Maven: io.prometheus:simpleclient_tracer_otel_agent:0.16.0">
+    <archive path="C:/Users/BancoDados/.m2/repository/io/prometheus/simpleclient_tracer_otel_agent/0.16.0/simpleclient_tracer_otel_agent-0.16.0.jar" />
+  </library>
+  <library name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava">
+    <archive path="C:/Users/BancoDados/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+  </library>
+  <library name="Maven: com.google.guava:failureaccess:1.0.3">
+    <archive path="C:/Users/BancoDados/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar" />
+  </library>
+  <library name="Maven: com.google.errorprone:error_prone_annotations:2.41.0">
+    <archive path="C:/Users/BancoDados/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar" />
+  </library>
+  <library name="Maven: org.jspecify:jspecify:1.0.0">
+    <archive path="C:/Users/BancoDados/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar" />
+  </library>
+  <library name="Maven: io.modelcontextprotocol.sdk:mcp:0.16.0">
+    <archive path="C:/Users/BancoDados/.m2/repository/io/modelcontextprotocol/sdk/mcp/0.16.0/mcp-0.16.0.jar" />
+  </library>
+  <library name="Maven: com.google.j2objc:j2objc-annotations:3.1">
+    <archive path="C:/Users/BancoDados/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar" />
+  </library>
+  <library name="Maven: io.modelcontextprotocol.sdk:mcp-json:0.16.0">
+    <archive path="C:/Users/BancoDados/.m2/repository/io/modelcontextprotocol/sdk/mcp-json/0.16.0/mcp-json-0.16.0.jar" />
+  </library>
+  <library name="Maven: io.modelcontextprotocol.sdk:mcp-json-jackson2:0.16.0">
+    <archive path="C:/Users/BancoDados/.m2/repository/io/modelcontextprotocol/sdk/mcp-json-jackson2/0.16.0/mcp-json-jackson2-0.16.0.jar" />
+  </library>
+  <library name="Maven: com.ethlo.time:itu:1.14.0">
+    <archive path="C:/Users/BancoDados/.m2/repository/com/ethlo/time/itu/1.14.0/itu-1.14.0.jar" />
+  </library>
+  <library name="Maven: com.networknt:json-schema-validator:2.0.0">
+    <archive path="C:/Users/BancoDados/.m2/repository/com/networknt/json-schema-validator/2.0.0/json-schema-validator-2.0.0.jar" />
+  </library>
+  <library name="Maven: io.projectreactor:reactor-core:3.7.0">
+    <archive path="C:/Users/BancoDados/.m2/repository/io/projectreactor/reactor-core/3.7.0/reactor-core-3.7.0.jar" />
+  </library>
+  <library name="Maven: io.modelcontextprotocol.sdk:mcp-core:0.16.0">
+    <archive path="C:/Users/BancoDados/.m2/repository/io/modelcontextprotocol/sdk/mcp-core/0.16.0/mcp-core-0.16.0.jar" />
+  </library>
+  <library name="Maven: org.reactivestreams:reactive-streams:1.0.4">
+    <archive path="C:/Users/BancoDados/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar" />
+  </library>
+</eclipse-userlibraries>
+
