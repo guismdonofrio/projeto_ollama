@@ -10,15 +10,14 @@ public class FlightFinderToolFunction implements ToolFunction {
     public Object apply(Map<String, Object> arguments) {
         String codigo = arguments.get("codigo_voo").toString();
 
-        String url = "jdbc:mysql://localhost:3306/sistema_aeroporto";
-        String user = "root";
-        String pass = "";
+        String dbUrl = ConfigDB.getUrl() + ConfigDB.getName();
+        String dbUser = ConfigDB.getUsername();
+        String dbPass = ConfigDB.getPassword();
 
-        // Query simplificada: busca apenas na tabela voo
         String sql = "SELECT codigo_voo, status_voo FROM voo WHERE codigo_voo = ?";
 
         try {
-            Connection con = DriverManager.getConnection(url, user, pass);
+            Connection con = DriverManager.getConnection(dbUrl, dbUser, dbPass);
             PreparedStatement stmt = con.prepareStatement(sql);
 
             stmt.setString(1, codigo);

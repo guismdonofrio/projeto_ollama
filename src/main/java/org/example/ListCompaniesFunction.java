@@ -9,9 +9,9 @@ import java.util.Map;
 public class ListCompaniesFunction implements ToolFunction {
     @Override
     public Object apply(Map<String, Object> arguments) {
-        String dbUrl = "jdbc:mysql://localhost:3306/sistema_aeroporto?useSSL=false";
-        String dbUser = "root";
-        String dbPass = "";
+        String dbUrl = ConfigDB.getUrl() + ConfigDB.getName();
+        String dbUser = ConfigDB.getUsername();
+        String dbPass = ConfigDB.getPassword();
 
         List<String> companhias = new ArrayList<>();
 
