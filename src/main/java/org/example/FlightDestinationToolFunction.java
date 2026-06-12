@@ -8,7 +8,6 @@ public class FlightDestinationToolFunction implements ToolFunction {
 
     @Override
     public Object apply(Map<String, Object> arguments) {
-        // LOG DE DEPURAÇÃO - ESSA LINHA APARECE NO CONSOLE SE A TOOL FOR CHAMADA
         System.out.println(">>> 🔧 FlightDestinationToolFunction FOI CHAMADA! Argumentos: " + arguments);
 
         // Validação

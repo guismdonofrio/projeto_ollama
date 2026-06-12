@@ -8,6 +8,9 @@ public class AircraftCapacityToolFunction implements ToolFunction {
 
     @Override
     public Object apply(Map<String, Object> arguments) {
+        // LOG DE DEPURAÇÃO
+        System.out.println(">>> 🔧 PassengersByFlightToolFunction FOI CHAMADA! Argumentos: " + arguments);
+
         Object codigoObj = arguments.get("codigo_voo");
         if (codigoObj == null) {
             return "❌ Parâmetro 'codigo_voo' obrigatório. Ex: 'LA3200'.";

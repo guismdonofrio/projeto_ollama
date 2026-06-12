@@ -10,6 +10,9 @@ public class CanceledFlightsToolFunction implements ToolFunction {
 
     @Override
     public Object apply(Map<String, Object> arguments) {
+        // LOG DE DEPURAÇÃO
+        System.out.println(">>> 🔧 PassengersByFlightToolFunction FOI CHAMADA! Argumentos: " + arguments);
+
         String inicioStr = arguments.containsKey("data_inicio") ? arguments.get("data_inicio").toString() : null;
         String fimStr = arguments.containsKey("data_fim") ? arguments.get("data_fim").toString() : null;
         LocalDate dataInicio = null, dataFim = null;

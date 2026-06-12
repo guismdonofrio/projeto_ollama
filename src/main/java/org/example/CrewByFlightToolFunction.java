@@ -8,6 +8,9 @@ public class CrewByFlightToolFunction implements ToolFunction {
 
     @Override
     public Object apply(Map<String, Object> arguments) {
+        // LOG DE DEPURAÇÃO
+        System.out.println(">>> 🔧 PassengersByFlightToolFunction FOI CHAMADA! Argumentos: " + arguments);
+
         String codigoVoo = arguments.get("codigo_voo").toString();
 
         String dbUrl = ConfigDB.getUrl() + ConfigDB.getName();

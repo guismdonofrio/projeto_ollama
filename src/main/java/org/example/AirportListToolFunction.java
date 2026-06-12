@@ -8,6 +8,9 @@ public class AirportListToolFunction implements ToolFunction {
 
     @Override
     public Object apply(Map<String, Object> arguments) {
+        // LOG DE DEPURAÇÃO
+        System.out.println(">>> 🔧 PassengersByFlightToolFunction FOI CHAMADA! Argumentos: " + arguments);
+
         String dbUrl = ConfigDB.getUrl() + ConfigDB.getName();
         String dbUser = ConfigDB.getUsername();
         String dbPass = ConfigDB.getPassword();

@@ -10,6 +10,9 @@ public class FlightsFromAirportToolFunction implements ToolFunction {
 
     @Override
     public Object apply(Map<String, Object> arguments) {
+        // LOG DE DEPURAÇÃO
+        System.out.println(">>> 🔧 PassengersByFlightToolFunction FOI CHAMADA! Argumentos: " + arguments);
+
         // Valida código IATA
         Object iataObj = arguments.get("codigo_iata");
         if (iataObj == null) {

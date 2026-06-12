@@ -8,6 +8,10 @@ public class PassengerFlightsToolFunction implements ToolFunction {
 
     @Override
     public Object apply(Map<String, Object> arguments) {
+        // LOG DE DEPURAÇÃO
+        System.out.println(">>> 🔧 PassengersByFlightToolFunction FOI CHAMADA! Argumentos: " + arguments);
+
+
         Object nomeObj = arguments.get("nome_pessoa");
         if (nomeObj == null) {
             return "❌ Parâmetro 'nome_pessoa' é obrigatório. Exemplo: 'João Silva'.";

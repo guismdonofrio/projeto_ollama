@@ -8,12 +8,16 @@ public class TopPassengersToolFunction implements ToolFunction {
 
     @Override
     public Object apply(Map<String, Object> arguments) {
+        // LOG DE DEPURAÇÃO
+        System.out.println(">>> 🔧 PassengersByFlightToolFunction FOI CHAMADA! Argumentos: " + arguments);
+
+
         int limite = 5;
         if (arguments.containsKey("limite")) {
             try {
                 limite = Integer.parseInt(arguments.get("limite").toString());
                 if (limite <= 0) limite = 5;
-            } catch (NumberFormatException e) { /* mantém 5 */ }
+            } catch (NumberFormatException e) { e.printStackTrace(); }
         }
 
         String dbUrl = ConfigDB.getUrl() + ConfigDB.getName();

@@ -8,6 +8,9 @@ public class AveragePriceToolFunction implements ToolFunction {
 
     @Override
     public Object apply(Map<String, Object> arguments) {
+        // LOG DE DEPURAÇÃO
+        System.out.println(">>> 🔧 PassengersByFlightToolFunction FOI CHAMADA! Argumentos: " + arguments);
+
         String companhia = arguments.containsKey("companhia") ? arguments.get("companhia").toString() : null;
         String classe = arguments.containsKey("classe") ? arguments.get("classe").toString() : null;
 
