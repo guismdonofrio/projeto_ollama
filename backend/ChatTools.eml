@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_25" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<testFolder url="file://$MODULE_DIR$/src/test/resources"/>
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+	</contentEntry>
+	<levels>
+		<level name="Maven: io.github.ollama4j:ollama4j:1.1.6" value="project"/>
+		<level name="Maven: org.jsoup:jsoup:1.21.2" value="project"/>
+		<level name="Maven: com.fasterxml.jackson.core:jackson-databind:2.20.1" value="project"/>
+		<level name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.20" value="project"/>
+		<level name="Maven: com.fasterxml.jackson.core:jackson-core:2.20.1" value="project"/>
+		<level name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.20.1" value="project"/>
+		<level name="Maven: org.yaml:snakeyaml:2.4" value="project"/>
+		<level name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.1" value="project"/>
+		<level name="Maven: org.slf4j:slf4j-api:2.0.17" value="project"/>
+		<level name="Maven: io.prometheus:simpleclient:0.16.0" value="project"/>
+		<level name="Maven: io.prometheus:simpleclient_tracer_otel:0.16.0" value="project"/>
+		<level name="Maven: io.prometheus:simpleclient_tracer_common:0.16.0" value="project"/>
+		<level name="Maven: io.prometheus:simpleclient_tracer_otel_agent:0.16.0" value="project"/>
+		<level name="Maven: com.google.guava:guava:33.5.0-jre" value="project"/>
+		<level name="Maven: com.google.guava:failureaccess:1.0.3" value="project"/>
+		<level name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" value="project"/>
+		<level name="Maven: org.jspecify:jspecify:1.0.0" value="project"/>
+		<level name="Maven: com.google.errorprone:error_prone_annotations:2.41.0" value="project"/>
+		<level name="Maven: com.google.j2objc:j2objc-annotations:3.1" value="project"/>
+		<level name="Maven: io.modelcontextprotocol.sdk:mcp:0.16.0" value="project"/>
+		<level name="Maven: io.modelcontextprotocol.sdk:mcp-json-jackson2:0.16.0" value="project"/>
+		<level name="Maven: io.modelcontextprotocol.sdk:mcp-json:0.16.0" value="project"/>
+		<level name="Maven: com.networknt:json-schema-validator:2.0.0" value="project"/>
+		<level name="Maven: com.ethlo.time:itu:1.14.0" value="project"/>
+		<level name="Maven: io.modelcontextprotocol.sdk:mcp-core:0.16.0" value="project"/>
+		<level name="Maven: io.projectreactor:reactor-core:3.7.0" value="project"/>
+		<level name="Maven: org.reactivestreams:reactive-streams:1.0.4" value="project"/>
+	</levels>
+</component>
